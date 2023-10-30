@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="utf8">
+	<title>あ</title>
+	
+	   <script>
+		   var params = (new URL(document.location)).searchParams;
+		   alert(params.get("shimei"));
+	   </script>
+</head>
+	   <body>
+	   <form action="./ch11_submit.html" method="GET">
+		   <input type="text" name="shimei">
+		   <input type="submit" value="ok">
+	   </form>
+	   </body>
+</html>
+
